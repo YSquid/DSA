@@ -2,6 +2,9 @@ const Node = require('./Node')
 const LinkedList = require('./LinkedList')
 
 
+
+//Worst case, loop entire list twice - time complexity O(n)
+//Constant amount of variables (4) - space complexity O(1)
 //Given an input of a linked list, data1, and data2, the general steps for doing so is as follows:
 
 //find the nodes that match the data for nodes1 and 2
