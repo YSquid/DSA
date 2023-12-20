@@ -16,3 +16,6 @@ class Node {
       return this.next;
     }
   }
+
+  
+module.exports = Node;
